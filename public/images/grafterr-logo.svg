@@ -1,0 +1,11 @@
+<svg width="220" height="44" viewBox="0 0 220 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="44" height="44" rx="15" fill="url(#paint0_linear)" />
+  <path d="M13 28V16H24.2C28.6 16 31.3 18.2 31.3 22C31.3 25.7 28.6 28 24 28H13ZM18.3 23.9H23.6C25.6 23.9 26.6 23.2 26.6 22C26.6 20.8 25.6 20.1 23.6 20.1H18.3V23.9Z" fill="white"/>
+  <text x="56" y="29" fill="#0A2237" font-family="Inter, Segoe UI, sans-serif" font-size="24" font-weight="800">Grafterr</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="4" y1="5" x2="39" y2="39" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#17B7A6" />
+      <stop offset="1" stop-color="#FF8A52" />
+    </linearGradient>
+  </defs>
+</svg>

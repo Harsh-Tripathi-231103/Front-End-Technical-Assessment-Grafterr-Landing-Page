@@ -1,0 +1,136 @@
+{
+  "navigation": {
+    "logo": {
+      "src": "/images/grafterr-logo.svg",
+      "alt": "Grafterr logo"
+    },
+    "links": [
+      {
+        "label": "Products",
+        "href": "#features"
+      },
+      {
+        "label": "Solutions",
+        "href": "#solutions"
+      }
+    ],
+    "cta": {
+      "label": "Book a demo",
+      "href": "#contact"
+    }
+  },
+  "hero": {
+    "eyebrow": "Restaurant technology platform",
+    "headlinePrefix": "Powering restaurants with the right",
+    "headlineGradient": "technology provider",
+    "subheadline": "Grafterr helps modern food businesses unify point of sale, self-service ordering and kitchen operations inside one fast, reliable platform.",
+    "cta": {
+      "label": "Get started",
+      "href": "#features"
+    },
+    "secondaryCta": {
+      "label": "View solutions",
+      "href": "#solutions"
+    },
+    "stats": [
+      {
+        "value": "500+",
+        "label": "venues onboarded"
+      },
+      {
+        "value": "32%",
+        "label": "faster service flow"
+      },
+      {
+        "value": "24/7",
+        "label": "operator visibility"
+      }
+    ],
+    "decorativeShapes": [
+      {
+        "name": "tealOrb",
+        "variant": "circle"
+      },
+      {
+        "name": "coralCard",
+        "variant": "rectangle"
+      }
+    ],
+    "previewCard": {
+      "eyebrow": "Live operations snapshot",
+      "title": "Everything your front-of-house and kitchen teams need to stay in sync.",
+      "bullets": [
+        "Real-time menu, orders and payments",
+        "Fewer handoff errors across channels",
+        "Faster dispatch from counter to kitchen"
+      ],
+      "metrics": [
+        {
+          "label": "Orders routed",
+          "value": "2.4k"
+        },
+        {
+          "label": "Avg prep time",
+          "value": "08:12"
+        }
+      ]
+    }
+  },
+  "featuresSection": {
+    "title": "Solutions built to",
+    "titleAccent": "grow your business",
+    "subtitle": "One connected stack that improves ordering, speed of service and operational control.",
+    "products": [
+      {
+        "id": "pos",
+        "name": "Point of Sale",
+        "description": "A fast, intuitive checkout experience for staff with payments, menu control and real-time reporting in one place.",
+        "image": {
+          "src": "/images/product-pos.svg",
+          "alt": "Point of Sale dashboard illustration"
+        },
+        "highlights": [
+          "Cloud-based reporting",
+          "Integrated payments",
+          "Multi-store ready"
+        ]
+      },
+      {
+        "id": "self-service",
+        "name": "Self-service",
+        "description": "Let guests order confidently through kiosks and digital touchpoints designed to reduce queues and increase basket size.",
+        "image": {
+          "src": "/images/product-self-service.svg",
+          "alt": "Self-service kiosk illustration"
+        },
+        "highlights": [
+          "Queue-busting ordering",
+          "Promotions and upsells",
+          "Accessible guest flow"
+        ]
+      },
+      {
+        "id": "kitchen-management",
+        "name": "Kitchen Management",
+        "description": "Streamline kitchen communication with clear production visibility, timing cues and fewer missed tickets.",
+        "image": {
+          "src": "/images/product-kitchen-management.svg",
+          "alt": "Kitchen management display illustration"
+        },
+        "highlights": [
+          "Ticket prioritisation",
+          "Cross-station visibility",
+          "Performance tracking"
+        ]
+      }
+    ]
+  },
+  "carousel": {
+    "itemsPerView": {
+      "mobile": 1,
+      "tablet": 2,
+      "desktop": 3
+    },
+    "showArrows": true
+  }
+}

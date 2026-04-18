@@ -1,0 +1,93 @@
+.carouselShell {
+  position: relative;
+}
+
+.controls {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-bottom: 28px;
+}
+
+.arrow {
+  width: 52px;
+  height: 52px;
+  border: 1px solid rgba(13, 38, 59, 0.12);
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--color-slate-900);
+  font-size: 1.35rem;
+  transition:
+    transform 200ms ease,
+    background-color 200ms ease,
+    opacity 200ms ease;
+}
+
+.arrow:hover:not(:disabled) {
+  transform: translateY(-2px);
+  background: var(--color-white);
+}
+
+.arrow:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.viewport {
+  overflow: hidden;
+}
+
+.track {
+  display: flex;
+  transition: transform 300ms ease;
+}
+
+.slide {
+  flex: 0 0 100%;
+  padding: 0 12px;
+}
+
+.view1 .slide {
+  flex-basis: 100%;
+}
+
+.view2 .slide {
+  flex-basis: 50%;
+}
+
+.view3 .slide {
+  flex-basis: 33.333333%;
+}
+
+.view1.index0,
+.view2.index0,
+.view3.index0 {
+  transform: translateX(0);
+}
+
+.view1.index1 {
+  transform: translateX(-100%);
+}
+
+.view1.index2 {
+  transform: translateX(-200%);
+}
+
+.view2.index1 {
+  transform: translateX(-50%);
+}
+
+.view3.index1 {
+  transform: translateX(-33.333333%);
+}
+
+@media (max-width: 767px) {
+  .controls {
+    justify-content: space-between;
+    margin-bottom: 18px;
+  }
+
+  .slide {
+    padding: 0 8px;
+  }
+}

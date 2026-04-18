@@ -1,0 +1,61 @@
+.card {
+  height: 100%;
+  padding: 24px;
+  border: 1px solid rgba(13, 38, 59, 0.08);
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.82);
+  box-shadow: var(--shadow-card);
+  backdrop-filter: blur(10px);
+}
+
+.mediaFrame {
+  display: grid;
+  place-items: center;
+  min-height: 216px;
+  margin-bottom: 22px;
+  padding: 18px;
+  border-radius: 24px;
+  background:
+    radial-gradient(circle at top left, rgba(255, 201, 176, 0.7), transparent 42%),
+    linear-gradient(180deg, rgba(255, 244, 238, 0.95), rgba(247, 252, 251, 0.9));
+}
+
+.productImage {
+  width: 100%;
+  max-width: 280px;
+  height: auto;
+}
+
+.copy h3 {
+  margin: 0 0 10px;
+  font-size: 1.35rem;
+}
+
+.copy p {
+  margin: 0;
+  color: var(--color-slate-600);
+}
+
+.highlights {
+  display: grid;
+  gap: 10px;
+  margin: 24px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.highlights li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: var(--color-slate-700);
+  font-weight: 600;
+}
+
+.highlights li::before {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  content: '';
+}

@@ -1,0 +1,14 @@
+:root {
+  --container-width: 1240px;
+  --font-family-base: 'Inter', 'Segoe UI', sans-serif;
+  --color-white: #ffffff;
+  --color-slate-900: #0a2237;
+  --color-slate-700: #264157;
+  --color-slate-600: #476076;
+  --color-slate-500: #6e8396;
+  --color-teal-600: #11998d;
+  --color-coral-500: #f46c47;
+  --gradient-primary: linear-gradient(90deg, #17b7a6 0%, #ff8a52 100%);
+  --shadow-card: 0 24px 40px rgba(19, 32, 49, 0.08);
+  --section-padding: 96px;
+}

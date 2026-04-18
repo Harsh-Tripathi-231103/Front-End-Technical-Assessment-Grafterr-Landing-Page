@@ -1,0 +1,31 @@
+.shape {
+  position: absolute;
+  filter: blur(0.2px);
+  animation: drift 6s ease-in-out infinite;
+}
+
+.circle {
+  width: 132px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: rgba(19, 183, 169, 0.2);
+}
+
+.rectangle {
+  width: 126px;
+  height: 88px;
+  border-radius: 28px;
+  background: rgba(244, 108, 71, 0.2);
+  animation-duration: 7.2s;
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translate3d(0, 0, 0) rotate(0deg);
+  }
+
+  50% {
+    transform: translate3d(0, -14px, 0) rotate(3deg);
+  }
+}
